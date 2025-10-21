@@ -11,11 +11,40 @@ Future<void> main() async {
   Get.put(ProductController());
   Get.put(CartController());
 
-  runApp(GetMaterialApp(
-    debugShowCheckedModeBanner: false,
-    title: 'Shopsy',
-    theme: ThemeData(primarySwatch: Colors.indigo),
-    initialRoute: '/',
-    getPages: AppRoutes.routes,
-  ));
+  runApp(
+    GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Shopsy',
+
+      // 🌗 Light Theme
+      theme: ThemeData(
+        brightness: Brightness.light,
+        primarySwatch: Colors.indigo, // choose your color
+        useMaterial3: true,
+      ),
+
+      // 🌙 Dark Theme
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        colorScheme: ColorScheme.dark(
+          primary: Colors.indigo,
+          secondary: Colors.deepPurpleAccent,
+          surface: const Color(0xFF1E1E1E),
+        ),
+        scaffoldBackgroundColor: const Color(0xFF121212),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFF1E1E1E),
+          elevation: 0,
+        ),
+        useMaterial3: true,
+      ),
+
+      // 🌓 Auto Switch based on system setting
+      themeMode: ThemeMode.system,
+
+      initialRoute: '/',
+      getPages: AppRoutes.routes,
+    ),
+  );
+
 }

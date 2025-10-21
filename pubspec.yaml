@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   get: ^4.7.2
   get_storage: ^2.1.1
+  flutter_native_splash: ^2.4.7
 
 dev_dependencies:
   flutter_test:
@@ -91,3 +92,11 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_native_splash:
+  # Background color for the splash screen
+  color: "#000000"
+  image: assets/images/splash_image.png
+  # Android 12 specific settings (optional)
+  android_12:
+    image: assets/images/splash_image.png
+    icon_background_color: "#000000"
