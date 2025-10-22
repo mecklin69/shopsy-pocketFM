@@ -22,5 +22,29 @@
     "image": "https://m.media-amazon.com/images/I/419OMyMyL-L._AC_UY327_FMwebp_QL65_.jpg",
     "description": "Fast-charging, dual-output power bank.",
     "category": "Utility"
+  },
+  {
+    "id": 4,
+    "title": "Wireless Headphones Audio Technica",
+    "price": 3299,
+    "image": "https://m.media-amazon.com/images/I/51CnDMbXZzL._SY679_.jpg",
+    "description": "HYBRID ACTIVE NOISE CANCELLING: Thanks to the combination of 2 internal and 2 external microphones, the headphones detect external noise, such as aircraft and car noise, and reduce them extremely effectively by up to 90%.;HIGH PRECISION SOUND PROFILE: Noise cancelling headphones feature dynamic 40mm drivers that produce detailed sound and rich beats with BassUp technology. They are also compatible with Hi-Res certified audio via AUX cable to provide more details.",
+    "category": "Audio"
+  },
+  {
+    "id": 5,
+    "title": "Smart Ring 7-days battery life",
+    "price": 12999,
+    "image": "https://m.media-amazon.com/images/I/51iMzWsqrBL._AC_UY327_FMwebp_QL65_.jpg",
+    "description": "[FIND YOUR PERFECT SIZE BEFORE YOU BUY] - FITTR HART X2 Smart Ring sizes are different from other smart ring sizes. First, purchase a ring sizing kit, wear it for 24 hours, and then choose your appropriate size before purchasing the HART Ring X2. Available in 8 sizes from 6-13 and also comes in 3 stylish colours - Gunmetal Black, Sterling Gold, Silver.",
+    "category": "Wearables"
+  },
+  {
+    "id": 6,
+    "title": "Air-Fryer-Kent 4.2L",
+    "price": 2899,
+    "image": "https://m.media-amazon.com/images/I/51oYlo9Y5sL._AC_UY327_FMwebp_QL65_.jpg",
+    "description": "Fry, Grill, Roast, Steam, and Bake your favorite snacks with KENT Classic Hot Air Fryer\nThe appliance uses up to 80% less oil and offers the similar taste as of deep-frying",
+    "category": "Appliances"
   }
 ]

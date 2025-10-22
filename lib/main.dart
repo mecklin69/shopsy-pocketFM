@@ -39,7 +39,6 @@ Future<void> main() async {
         useMaterial3: true,
       ),
 
-      // 🌓 Auto Switch based on system setting
       themeMode: ThemeMode.system,
 
       initialRoute: '/',
